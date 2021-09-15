@@ -1,8 +1,11 @@
 package com.lti.model;
 
+import java.util.Date;
+
 public class Booking {
 	int bookingId;
 	String flight;
+	Date date;
 	public Booking(int bookingId, String flight) {
 		super();
 		this.bookingId = bookingId;
